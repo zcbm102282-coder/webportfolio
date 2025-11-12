@@ -1,5 +1,6 @@
 /* === 전체 초기화 === */
 html, body {
+  position: fixed;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -29,6 +30,7 @@ html, body {
   transition: transform 0.1s ease;
 }
 #musicButton:hover {
+  position: fixed;
   transform: scale(1.5);
 }
 
@@ -56,14 +58,18 @@ html, body {
 
 /* === 개별 버튼 위치 === */
 #btn1 {
+  position: fixed;
   top: 29vh;   /* 367px ÷ 1080 */
   left: 66.9vw;/* 1500px ÷ 1920 */
 }
 #btn2 {
+  position: fixed;
   top: 34vh; /* 427px ÷ 1080 */
   left: 66.9vw;
 }
 #btnNone {
+  position: fixed;
   top: 24vh; /* 310px ÷ 1080 */
   left: 66.9vw;
+
 }
