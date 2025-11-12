@@ -5,10 +5,10 @@ let isPlaying = false;
 
 musicButton.addEventListener('click', () => {
   if (!isPlaying) {
-    musicButton.src = 'images/bt2.png';
+    musicButton.src = './bt2.png';
     bgm.play();
   } else {
-    musicButton.src = 'images/bt1.png';
+    musicButton.src = './bt1.png';
     bgm.pause();
     bgm.currentTime = 0;
   }
@@ -26,7 +26,7 @@ btn1.addEventListener('click', () => {
   innerImage.style.display = 'block';
   innerImage.style.opacity = '0';
   setTimeout(() => {
-    innerImage.src = 'images/im1.jpg';
+    innerImage.src = './im1.jpg';
     innerImage.style.opacity = '1';
   }, 100);
 });
@@ -36,7 +36,7 @@ btn2.addEventListener('click', () => {
   innerImage.style.display = 'block';
   innerImage.style.opacity = '0';
   setTimeout(() => {
-    innerImage.src = 'images/im2.jpg';
+    innerImage.src = './im2.jpg';
     innerImage.style.opacity = '1';
   }, 100);
 });
